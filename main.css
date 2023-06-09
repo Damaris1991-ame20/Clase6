@@ -1,0 +1,231 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Lato", sans-serif;
+}
+header {
+  height: 100px;
+  width: 100%;
+  background-color: hotpink;
+  padding: 0px;
+  margin: 0px;
+  padding-left: 10px;
+  padding-right: 10px;
+  position: fixed;
+}
+header img {
+  width: 20%;
+  float: right;
+}
+header nav {
+  height: 100px;
+  float: left;
+  margin-top: 40px;
+}
+header nav ul li {
+  list-style-type: none;
+  float: left;
+}
+header nav ul li a {
+  text-decoration: none;
+  padding: 10px;
+  display: inline-block;
+  color: black;
+  font-family: "Fira sans";
+}
+header nav ul li a:hover {
+  color: aliceblue;
+  font-weight: bold;
+}
+aside {
+  clear: both;
+  width: 35%;
+  padding: 100px 20px 20px 20px;
+  border-right: 1px solid #3399ff;
+  float: left;
+}
+aside p {
+  font-size: 30px;
+  text-align: center;
+  letter-spacing: 16px;
+  font-weight: bold;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+aside nav ul li {
+  list-style-type: none;
+  margin-bottom: 20px;
+  font-size: 30px;
+  border-bottom: 2px solid #cc0099;
+}
+aside nav ul li a {
+  text-decoration: none;
+  color: darkorchid;
+}
+aside nav ul li:hover,
+aside nav ul li a:hover {
+  border-bottom: 2px solid #3399ff;
+}
+aside form {
+  width: 100%;
+  padding: 20px;
+  border: 2px solid #cc0099;
+  border-radius: 10px;
+}
+aside form h1 {
+  text-align: center;
+  padding-bottom: 10px;
+}
+aside form input,
+aside form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  background-color: #cc0099;
+  color: white;
+}
+::placeholder {
+  color: white;
+}
+aside form textarea {
+  height: 80px;
+}
+aside form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #cc0099;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+aside form button:hover {
+  background-color: darkorchid;
+}
+aside form input:focus,
+aside form textarea:focus {
+  background-color: black;
+}
+main {
+  width: 65%;
+  float: left;
+  padding: 100px 20px 20px 20px;
+}
+main div h1 {
+  text-align: center;
+  text-decoration: none;
+  color: #cc0099;
+}
+main section .card {
+  width: 31%;
+  margin: 5px;
+  border: 2px solid darkorchid;
+  border-radius: 10px;
+  box-shadow: 0px 10px 10px 0px rgba(251, 212, 79, 0.5);
+  float: left;
+}
+main section .card .card-imagen {
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2l-07R8xmz8fDf54RUJTwuR7fuW6Nakpp8g&usqp=CAU);
+  height: 150px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px 10px 0px 0px;
+}
+main section .card .card-imagen1 {
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgEQhbBck0BFpP0L4wyaNdj-9MrpIWZ0Np1g&usqp=CAU);
+  height: 150px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px 10px 0px 0px;
+}
+main section .card .card-imagen2 {
+  background-image: url(https://st.depositphotos.com/1010050/4462/i/600/depositphotos_44620865-stock-photo-white-ice-cream-cones.jpg);
+  height: 150px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px 10px 0px 0px;
+}
+main section .card .card-imagen3 {
+  background-image: url(https://www.tirrenohelados.com.ar/sitio/wp-content/uploads/PalitosAguaa.jpg);
+  height: 150px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px 10px 0px 0px;
+}
+main section .card .card-imagen4 {
+  background-image: url(https://statics.dinoonline.com.ar/imagenes/full_600x600_ma/3361890_f.jpg);
+  height: 209px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px 10px 0px 0px;
+}
+main section .card .card-imagen5 {
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDuwS-FjQWKdqgzpRVyPwMvLxSqugLwmM88Q&usqp=CAU);
+  height: 150px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px 10px 0px 0px;
+}
+main section .card .card-imagen6 {
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRxeCoLQobcbS_RIeF4UViv7gwhiZDUjWYQQ&usqp=CAU);
+  height: 150px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px 10px 0px 0px;
+}
+main section .card .card-imagen7 {
+  background-image: url(https://statics.dinoonline.com.ar/imagenes/full_600x600_ma/3361213_f.jpg);
+  height: 150px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px 10px 0px 0px;
+}
+main section .card .card-imagen8 {
+  background-image: url(https://www.tirrenohelados.com.ar/sitio/wp-content/uploads/SuperBombonCrocantee.jpg);
+  height: 150px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px 10px 0px 0px;
+}
+main section .card .descrition {
+  padding: 20px;
+  font-family: "Lato", sans-serif;
+}
+main section .card button {
+  width: 100%;
+  border: none;
+  border-radius: 0px 0px 10px 10px;
+  padding: 10px;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+}
+main section .card .precio {
+  background: #3399ff;
+  width: 35%;
+  color: white;
+  font-size: 20px;
+  border-radius: 10px 10px 10px 10px;
+}
+main section .card button:hover {
+  background: #fbd44f;
+}
+footer {
+  clear: both;
+  width: 100%;
+  background: hotpink;
+  margin: 0px;
+  padding: 30px;
+}
+footer div {
+  width: 100%;
+}
+footer div span {
+  float: right;
+}
